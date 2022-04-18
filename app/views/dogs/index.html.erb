@@ -1,2 +1,4 @@
 <%= paginate @dogs %>
-<%= render partial: 'thumbnail', collection: @dogs, as: :dog %>
+<div class="flex-container">
+  <%= render partial: 'thumbnail', collection: @dogs, as: :dog %>
+</div>

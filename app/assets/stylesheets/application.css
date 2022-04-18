@@ -19,3 +19,13 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.index-image {
+  max-width: 400px;
+}
