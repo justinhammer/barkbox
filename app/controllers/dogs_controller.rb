@@ -6,6 +6,7 @@ class DogsController < ApplicationController
   # GET /dogs.json
   def index
     @dogs = Dog.order(:name).page(params[:page]).per(5)
+    @dog_count = 0
   end
 
   # GET /dogs/1
